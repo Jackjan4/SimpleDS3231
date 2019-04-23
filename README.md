@@ -19,5 +19,10 @@ Unhappy with this situation I created SimpleDS3231 with the goal to be the ultim
 
 ## The DS3231
 
-**"The DS3231 is a low-cost, extremely accurate I2C realtime clock (RTC) with an integrated temperaturecompensated crystal oscillator (TCXO) and crystal."** - DS3231 datasheet
+**"The DS3231 is a low-cost, extremely accurate I2C realtime clock (RTC) with an integrated temperature-compensated crystal oscillator (TCXO) and crystal."** - DS3231 datasheet
 
+In other words the DS3231 is a real-time-clock that combines a bunch of very neat features. It can be powered by coin cell battery for years since it just uses 80uA when idling. 
+
+It features:
+- 2 Alarm clocks that can trigger an interrupt pin in defined intervals
+- A square wave output, that can 
