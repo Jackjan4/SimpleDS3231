@@ -40,6 +40,10 @@ Most people who use the DS3231 probably won't buy the chip as a standalone versi
 
 ## Getting Started
 
+4 lines of code is everything you need to get things running.
+
+'DS3231 rtc;'
+
 ## Documentation
 
 [SimpleDS3231 has a rich documentation that can be found in its GitHub wiki.](https://github.com/Jackjan4/SimpleDS3231/wiki)
