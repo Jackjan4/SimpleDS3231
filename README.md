@@ -72,6 +72,8 @@ SimpleDS3231 was tested and confirmed to work on the following boards:
 - Arduino Leonardo
 - SparkFun Pro Micro 3.3V/8MHz
 
+Can't find your board in this list or using the library throws errors? Create an issue with detailed information about your enviromment and we will try to help you.
+
 ## Credits
 
 - Jan "[Jackjan4](https://github.com/Jackjan4)"
