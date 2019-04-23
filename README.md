@@ -14,4 +14,5 @@ Unhappy with this situation I created SimpleDS3231 with the goal to be the ultim
 - **Beginner friendly** - SimpleDS3231 features a rich documentation and a straightforward syntax
 - **Complete feature set** - While keeping things simple, this library supports all of the features the DS3231 has to offer
 - **Advanced features** - Advanced users can use special functions like direct-register-access-functions to speak directly to the DS3231 registers
-- ** 
+- **Support for EEPROM** - The EEPROM that is included on some DS3231 boards found on eBay/Aliexpress is supported by this library to save data onto the DS3231 that can be stored for years with a coin cell battery
+- **Temperature sensor** - The 
