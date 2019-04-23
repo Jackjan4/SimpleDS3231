@@ -42,7 +42,9 @@ Most people who use the DS3231 probably won't buy the chip as a standalone versi
 
 4 lines of code is everything you need to get things running.
 
-'DS3231 rtc;'
+```
+DS3231 rtc;
+```
 
 ## Documentation
 
