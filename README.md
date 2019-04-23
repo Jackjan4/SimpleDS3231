@@ -19,6 +19,5 @@ Unhappy with this situation I created SimpleDS3231 with the goal to be the ultim
 
 ## The DS3231
 
-"The DS3231 is a low-cost, extremely accurate I2C realtime clock (RTC) with an integrated temperaturecompensated crystal oscillator (TCXO) and crystal."
-- DS3231 datasheet
+**"The DS3231 is a low-cost, extremely accurate I2C realtime clock (RTC) with an integrated temperaturecompensated crystal oscillator (TCXO) and crystal."** - DS3231 datasheet
 
