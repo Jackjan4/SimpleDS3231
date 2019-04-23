@@ -44,6 +44,8 @@ Most people who use the DS3231 probably won't buy the chip as a standalone versi
 
 [SimpleDS3231 has a rich documentation that can be found in its GitHub wiki.](https://github.com/Jackjan4/SimpleDS3231/wiki)
 
+We also have a [code reference]() where every method of library is documented.
+
 ## Supported Microcontrollers
 
 SimpleDS3231 is build to work with as many microcontrollers as possible but due to the differences in behavior of some microcontrollers it cannot be guaranteed to work with every specific MCU out there. SimpleDS3231 was build with AVR architecture (Arduino Uno, Nano, ...) in mind so these boards have the chance to work most.
