@@ -40,4 +40,13 @@ Most people who use the DS3231 probably won't buy the chip as a standalone versi
 
 ## Documentation
 
+## Supported Microcontrollers
+
+SimpleDS3231 is build to work with as many microcontrollers as possible but due to the differences in behavior of some microcontrollers it cannot be guaranteed to work with every specific MCU out there. SimpleDS3231 was build with AVR architecture (Arduino Uno, Nano, ...) in mind so these boards have the chance to work most.
+
+SimpleDS3231 was tested and confirmed to work on the following boards:
+
+- Arduino Leonardo
+- SparkFun Pro Micro 3.3V/8MHz
+
 ## Credits
