@@ -31,3 +31,13 @@ The DS3231 features:
 
 
 Most people who use the DS3231 probably won't buy the chip as a standalone version. There are a couple of companies who packed the chip together with some supporting-peripherals onto a breakout-board. The most popular read-to-use board is seen in the picture below. It can be bought for around $5 from eBay or Aliexpress and features the DS3231 chip, support circuitry, a battery slot for a CR2032 coin cell and an EEPROM. This board is perfect to start with, but also has some problems, which should be addressed first, before using it.
+
+
+## Download & Installation
+
+
+## Getting Started
+
+## Documentation
+
+## Credits
