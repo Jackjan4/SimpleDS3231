@@ -43,7 +43,18 @@ Most people who use the DS3231 probably won't buy the chip as a standalone versi
 4 lines of code is everything you need to get things running.
 
 ```
+#include "DS3232.h"
+
 DS3231 rtc;
+
+void setup() {
+
+rtc.begin();
+}
+
+void loop() {
+
+}
 ```
 
 ## Documentation
