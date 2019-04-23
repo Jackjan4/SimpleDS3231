@@ -21,8 +21,13 @@ Unhappy with this situation I created SimpleDS3231 with the goal to be the ultim
 
 **"The DS3231 is a low-cost, extremely accurate I2C realtime clock (RTC) with an integrated temperature-compensated crystal oscillator (TCXO) and crystal."** - DS3231 datasheet
 
-In other words the DS3231 is a real-time-clock that combines a bunch of very neat features. It can be powered by coin cell battery for years since it just uses 80uA when idling. 
+In other words the DS3231 is a real-time-clock that combines a bunch of very neat features. It can be powered by coin cell battery for years since it just uses 80uA when idling. It uses I2C to communicate with a microcontroller, so all you need is 2 wires to get things going.
 
-It features:
+The DS3231 features:
 - 2 Alarm clocks that can trigger an interrupt pin in defined intervals
-- A square wave output, that can 
+- A square wave output, that can be used as a clock source or for timed events
+- A 32KHz output, that can also be used as a clock source for example
+- A temperature sensor
+
+
+Most people who use the DS3231 probably won't buy the chip as a standalone version. There are a couple of companies who packed the chip together with some supporting-peripherals onto a breakout-board. The most popular read-to-use board is seen in the picture below. It can be bought for around $5 from eBay or Aliexpress and features the DS3231 chip, support circuitry, a battery slot for a CR2032 coin cell and an EEPROM. This board is perfect to start with, but also has some problems, which should be addressed first, before using it.
