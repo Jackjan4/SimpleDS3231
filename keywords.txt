@@ -1,0 +1,47 @@
+#######################################
+# Syntax Coloring Map For RTC
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DS3231 KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+year	KEYWORD2
+month	KEYWORD2
+day	KEYWORD2
+hour	KEYWORD2
+minute	KEYWORD2
+second	KEYWORD2
+dayOfWeek	KEYWORD2
+secondstime	KEYWORD2
+unixtime	KEYWORD2
+begin	KEYWORD2
+adjust	KEYWORD2
+isrunning	KEYWORD2
+now	KEYWORD2
+checkRollover	KEYWORD2
+timestamp	KEYWORD2
+readSqwPinMode	KEYWORD2
+writeSqwPinMode	KEYWORD2
+getTemperature	KEYWORD2
+getA1Time	KEYWORD2
+setA1Time	KEYWORD2
+setAlarm1Simple	KEYWORD2
+turnOnAlarm	KEYWORD2
+turnOffAlarm	KEYWORD2
+checkAlarmEnabled	KEYWORD2
+checkIfAlarm	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+TIMESTAMP_FULL	LITERAL1
+TIMESTAMP_DATE	LITERAL1
+TIMESTAMP_TIME	LITERAL1
+
