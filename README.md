@@ -9,6 +9,8 @@ I (Jan) created this library due to the fact that most other libraries for the D
 
 Unhappy with this situation I created SimpleDS3231 with the goal to be the ultimate library for the DS3231 featuring:
 
-- # Easy syntax - Get the DS3231 to work with just a couple of lines of code
-- Complete feature set - While being simple this library supports all of the features the DS3231 has to offer
-- Advanced features - 
+- **Easy syntax** - Get the DS3231 to work with just a couple of lines of code
+- **Beginner friendly** - SimpleDS3231 features a rich documentation and a straightforward syntax
+- **Complete feature set** - While keeping things simple, this library supports all of the features the DS3231 has to offer
+- **Advanced features** - SimpleDS3231 offers 
+- ** 
