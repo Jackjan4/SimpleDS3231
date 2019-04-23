@@ -53,3 +53,5 @@ SimpleDS3231 was tested and confirmed to work on the following boards:
 - SparkFun Pro Micro 3.3V/8MHz
 
 ## Credits
+
+- Jan "[Jackjan4](https://github.com/Jackjan4)"
