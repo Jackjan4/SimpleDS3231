@@ -63,7 +63,7 @@ void loop() {
 }
 ```
 
-The library includes many more features, see the [documentation]() or the [code reference]().
+The library includes many more features, see the [documentation](https://github.com/Jackjan4/SimpleDS3231/wiki) or the [code reference]().
 ## Documentation
 
 [SimpleDS3231 has a rich documentation that can be found in its GitHub wiki.](https://github.com/Jackjan4/SimpleDS3231/wiki)
