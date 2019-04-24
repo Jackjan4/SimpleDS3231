@@ -49,6 +49,7 @@ DS3231 rtc;
 
 void setup() {
 
+    // Initialize the DS3231
     rtc.begin();
     
     // Set RTC time in 24-hour-mode
