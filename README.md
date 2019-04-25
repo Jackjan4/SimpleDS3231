@@ -42,7 +42,7 @@ Most people who use the DS3231 probably won't buy the chip as a standalone versi
 
 4 lines of code is everything you need to get things running.
 
-```
+```c++
 #include "DS3232.h"
 
 DS3231 rtc;
@@ -68,7 +68,7 @@ The library includes many more features, see the [documentation](https://github.
 
 [SimpleDS3231 has a rich documentation that can be found in its GitHub wiki.](https://github.com/Jackjan4/SimpleDS3231/wiki)
 
-We also have a [code reference]() where every method of library is documented.
+We also have a [code reference]() where every method of the library is documented.
 
 ## Supported Microcontrollers
 
