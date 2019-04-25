@@ -68,7 +68,7 @@ The library includes many more features, see the [documentation](https://github.
 
 [SimpleDS3231 has a rich documentation that can be found in its GitHub wiki.](https://github.com/Jackjan4/SimpleDS3231/wiki)
 
-We also have a [code reference]() where every method of library is documented.
+We also have a [code reference]() where every method of the library is documented.
 
 ## Supported Microcontrollers
 
