@@ -18,16 +18,16 @@ class DS3231 {
     static const uint8_t ALARM1_DATE_HOURS_MINUTES_SECONDS_MATCH = 0b00000;
     static const uint8_t ALARM1_DAY_HOURS_MINUTES_SECONDS_MATCH = 0b10000;
 	
-	static const uint8_t ALARM2_ONCE_PER_MINUTE = 0b111;
+    static const uint8_t ALARM2_ONCE_PER_MINUTE = 0b111;
     static const uint8_t ALARM2_MINUTES_MATCH = 0b110;
     static const uint8_t ALARM2_HOURS_MINUTES_MATCH = 0b100;
     static const uint8_t ALARM2_DATE_HOURS_MINUTES_MATCH = 0b0000;
     static const uint8_t ALARM2_DAY_HOURS_MINUTES_MATCH = 0b1000;
 	
-	static const uint8_t SQUAREWAVE_1HZ = 0b00;
-	static const uint8_t SQUAREWAVE_1024KHZ = 0b01;
-	static const uint8_t SQUAREWAVE_4096KHZ = 0b10;
-	static const uint8_t SQUAREWAVE_8192KHZ = 0b11;
+    static const uint8_t SQUAREWAVE_1HZ = 0b00;
+    static const uint8_t SQUAREWAVE_1024KHZ = 0b01;
+    static const uint8_t SQUAREWAVE_4096KHZ = 0b10;
+    static const uint8_t SQUAREWAVE_8192KHZ = 0b11;
 
     // Constructor
     DS3132();

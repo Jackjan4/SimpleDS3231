@@ -1,5 +1,5 @@
 #######################################
-# Syntax Coloring Map For RTC
+# Syntax Coloring Map For SimpleDS3231
 #######################################
 
 #######################################
@@ -12,36 +12,53 @@ DS3231 KEYWORD1
 # Methods and Functions (KEYWORD2)
 #######################################
 
-year	KEYWORD2
-month	KEYWORD2
-day	KEYWORD2
-hour	KEYWORD2
-minute	KEYWORD2
-second	KEYWORD2
-dayOfWeek	KEYWORD2
-secondstime	KEYWORD2
-unixtime	KEYWORD2
-begin	KEYWORD2
-adjust	KEYWORD2
-isrunning	KEYWORD2
-now	KEYWORD2
-checkRollover	KEYWORD2
-timestamp	KEYWORD2
-readSqwPinMode	KEYWORD2
-writeSqwPinMode	KEYWORD2
-getTemperature	KEYWORD2
-getA1Time	KEYWORD2
-setA1Time	KEYWORD2
-setAlarm1Simple	KEYWORD2
+begin KEYWORD2
+
+getYear	KEYWORD2
+getMonth	KEYWORD2
+getDate	KEYWORD2
+getDow	KEYWORD2
+getHours	KEYWORD2
+getMinutes	KEYWORD2
+getSeconds	KEYWORD2
+getTimeString KEYWORD2
+setTime24
+
+setAlarm1	KEYWORD2
+setAlarm2	KEYWORD2
+turnOnAlarm1	KEYWORD2
+turnOnAlarm2	KEYWORD2
 turnOnAlarm	KEYWORD2
+turnOffAlarm1	KEYWORD2
+turnOffAlarm2	KEYWORD2
 turnOffAlarm	KEYWORD2
-checkAlarmEnabled	KEYWORD2
-checkIfAlarm	KEYWORD2
+clearAlarmFlag	KEYWORD2
+resetAlarm	KEYWORD2
+
+
+getTemperature	KEYWORD2
+getTemperatureFahrenheit	KEYWORD2
+activateSquareWave	KEYWORD2
+deactivateSquareWave	KEYWORD2
+
+getRegister	KEYWORD2
+writeRegister	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
 #######################################
-TIMESTAMP_FULL	LITERAL1
-TIMESTAMP_DATE	LITERAL1
-TIMESTAMP_TIME	LITERAL1
+ALARM1_ONCE_PER_SECOND	LITERAL1
+ALARM1_SECONDS_MATCH	LITERAL1
+ALARM1_MINUTES_SECONDS_MATCH	LITERAL1
+ALARM1_HOURS_MINUTES_SECONDS_MATCH	LITERAL1
+ALARM1_DATE_HOURS_MINUTES_SECONDS_MATCH	LITERAL1
+ALARM1_DAY_HOURS_MINUTES_SECONDS_MATCH	LITERAL1
+
+ALARM2_ONCE_PER_MINUTE	LITERAL1
+ALARM2_MINUTES_MATCH	LITERAL1
+ALARM2_HOURS_MINUTES_MATCH	LITERAL1
+ALARM2_DATE_HOURS_MINUTES_MATCH	LITERAL1
+ALARM2_DAY_HOURS_MINUTES_MATCH	LITERAL1
+
+
 
