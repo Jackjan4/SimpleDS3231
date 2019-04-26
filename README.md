@@ -37,8 +37,7 @@ Most people who use the DS3231 probably won't buy the chip as a standalone versi
 
 ## Download & Installation
 
-
-You will find our releases here
+**You will find our releases [here](https://github.com/Jackjan4/SimpleDS3231/releases)**
 
 Click here to download the latest release
 
