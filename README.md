@@ -53,7 +53,7 @@ void setup() {
     rtc.begin();
     
     // Set RTC time in 24-hour-mode
-    //           year, month, date, day, hour, minutes, seconds
+    //          year, month, date, day,      hour, minutes, seconds
     rtc.setTime24(19, 4, 22, DS3231::TUESDAY, 13, 24, 33);
 
 }
