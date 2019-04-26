@@ -37,9 +37,10 @@ Most people who use the DS3231 probably won't buy the chip as a standalone versi
 
 ## Download & Installation
 
+[**Download latest release**]()
+
 **You will find our releases [here](https://github.com/Jackjan4/SimpleDS3231/releases)**
 
-[**Download latest release**]()
 
 (We are also working on publishing the library into the Arduino library manager)
 
